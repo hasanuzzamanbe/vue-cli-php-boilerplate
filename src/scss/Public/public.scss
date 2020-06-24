@@ -1,0 +1,25 @@
+body {
+  background: rgba(118, 255, 255, 0.795);
+  .topnav {
+        background-color: #fff;
+        overflow: hidden;
+        border-top: 1px solid #32373c2b;
+        border-bottom: 1px solid #32373c2b;
+        width: 102%;
+        margin:-9px 0px 0px -20px;
+    }
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* Add a color to the active/current link */
+    .topnav a.ninja-tab-active {
+        background-color: #0173aa;
+        color: white;
+    }
+}
