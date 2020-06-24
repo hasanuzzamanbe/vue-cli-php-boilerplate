@@ -3,7 +3,7 @@ node_modules
 dist
 project/css*
 project/js*
-
+project/builds*
 # local env files
 .env.local
 .env.*.local

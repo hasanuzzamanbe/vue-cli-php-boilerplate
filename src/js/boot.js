@@ -1,3 +1,3 @@
-import AuthorBio from './author-bio';
+import AuthorBio from './vue-handlers';
 
 window.AuthorBio = new AuthorBio();

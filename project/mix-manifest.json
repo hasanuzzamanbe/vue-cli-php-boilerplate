@@ -1,5 +1,5 @@
 {
-    "/js/boot.js": "/js/boot.js",
-    "/css/public.css": "/css/public.css",
-    "/js/main.js": "/js/main.js"
+    "/builds/js/boot.js": "/builds/js/boot.js",
+    "/builds/css/public.css": "/builds/css/public.css",
+    "/builds/js/main.js": "/builds/js/main.js"
 }

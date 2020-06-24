@@ -2,14 +2,8 @@ import Vue from './elements';
 import Router from 'vue-router';
 Vue.use(Router);
 
-import { applyFilters, addFilter, addAction, doAction } from '@wordpress/hooks';
-
 export default class AuthorBio {
     constructor() {
-        this.applyFilters = applyFilters;
-        this.addFilter = addFilter;
-        this.addAction = addAction;
-        this.doAction = doAction;
         this.Vue = Vue;
         this.Router = Router;
     }
