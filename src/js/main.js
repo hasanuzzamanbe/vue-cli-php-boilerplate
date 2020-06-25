@@ -1,12 +1,12 @@
-window.AuthorBioBus = new window.AuthorBio.Vue();
+window.MyProjectBus = new window.MyProject.Vue();
 
-window.AuthorBio.Vue.mixin({
+window.MyProject.Vue.mixin({
     methods: {
-        $adminGet: window.AuthorBio.$adminGet,
-        $adminPost: window.AuthorBio.$adminPost,
-        $post: window.AuthorBio.$post,
+        $adminGet: window.MyProject.$adminGet,
+        $adminPost: window.MyProject.$adminPost,
+        $post: window.MyProject.$post,
         $t(str) {
-            let transString = authorBioAdmin.i18n[str];
+            let transString = myProjectAdmin.i18n[str];
             if (transString) {
                 return transString;
             }
@@ -17,14 +17,14 @@ window.AuthorBio.Vue.mixin({
 
 import {routes} from './routes'
 
-const router = new window.AuthorBio.Router({
+const router = new window.MyProject.Router({
     routes: routes,
     linkActiveClass: 'active'
 });
 
 import App from './AdminApp'
 if (document.getElementById("myAdminPanel")) {
-    new window.AuthorBio.Vue({
+    new window.MyProject.Vue({
         el: '#myAdminPanel',
         render: h => h(App),
         router: router

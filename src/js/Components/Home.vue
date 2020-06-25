@@ -7,7 +7,7 @@
                         <h3>Home</h3>
                     </div>
                     <div class="supports_block inner_box">
-                        <p>We'd love your help.</p>
+                        <p>We'd love to help you.</p>
                         <img src="https://vuejs.org/images/logo.png" alt="Vue">
                     </div>
                 </div>

@@ -10,13 +10,26 @@
                         <p>We'd love your help, feedback and support.</p>
                         <ul class="support_items">
                             <li>
-                                <a target="_blank" href="">Rate This plugin plugin,</a> and help spread the word!
+                                <a
+                                    target="_blank"
+                                    href="https://github.com/hasanuzzamanbe/vue-cli-php-mysql"
+                                >Fork me on github or clone</a> and help spread the word!
                             </li>
                             <li>
-                                Report bugs (with steps to reproduce) or <a target="_blank" href="https://github.com/hasanuzzamanbe/Author-Bio-by-Shortcode">submit pull requests on GitHub</a>
+                                <a
+                                    href="https://github.com/hasanuzzamanbe/vue-cli-php-mysql/issues"
+                                >Report bugs</a> (with steps to reproduce) or
+                                <a
+                                    target="_blank"
+                                    href="https://github.com/hasanuzzamanbe/vue-cli-php-mysql"
+                                >Submit pull requests on GitHub</a>
                             </li>
                             <li>
-                                Have a question? or Need Expert Support? <a target="_blank" href="mailto:hasanuzzamanbe@gmail.com?subject=Author Bio Ultimate support and Feedback">Mail to developer</a>
+                                Have a question? or Need Expert Support?
+                                <a
+                                    target="_blank"
+                                    href="https://www.hasanuzzaman.com"
+                                >Text to developer</a>
                             </li>
                         </ul>
                     </div>
@@ -27,14 +40,14 @@
 </template>
 
 <script type="text/babel">
-    export default {
-        name: 'Supports'
-    }
+export default {
+    name: "Supports"
+};
 </script>
 
 <style>
-    .supports_block.inner_box {
-        background: white;
-        padding: 19px;
-    }
+.supports_block.inner_box {
+    background: white;
+    padding: 19px;
+}
 </style>

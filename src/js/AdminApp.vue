@@ -1,6 +1,6 @@
 <template>
     <div id="myAdminPanel">
-        <div class="authorbio_main_nav">
+        <div class="myproject_main_nav">
             <div class="topnav">
                 <router-link
                     v-for="menuItem in topMenus"
@@ -30,8 +30,7 @@ export default {
                     route: "supports",
                     title: "Supports"
                 }
-            ],
-            shamim: "is it working"
+            ]
         };
     }
 };

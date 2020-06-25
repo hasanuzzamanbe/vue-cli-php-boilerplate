@@ -1,3 +1,3 @@
-import AuthorBio from './vue-handlers';
+import MyProject from './vue-handlers';
 
-window.AuthorBio = new AuthorBio();
+window.MyProject = new MyProject();
