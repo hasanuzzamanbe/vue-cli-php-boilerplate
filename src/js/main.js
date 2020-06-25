@@ -19,6 +19,7 @@ import {routes} from './routes'
 
 const router = new window.MyProject.Router({
     routes: routes,
+    mode: 'history',
     linkActiveClass: 'active'
 });
 
