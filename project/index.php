@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vue-sql</title>
     <link rel="stylesheet" href="builds/css/public.css">
+    <link rel="stylesheet" href="builds/css/admin.css">
 </head>
 <body>
     <div id="myAdminPanel">

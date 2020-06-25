@@ -1,14 +1,14 @@
 <template>
     <div>
-        <el-row :gutter="20" class="users_details_row">
-            <el-col :xs="24" :md="12" class="inner_column">
+        <el-row class="users_details_row">
+            <el-col :xs="24" :md="24" class="inner_column">
                 <div>
                     <div class="users_details_row_header">
                         <h3>Feedback and Support</h3>
                     </div>
-                    <div class="supports_block inner_box">
+                    <div class="supports_block inner_box" style="text-align:center;">
                         <p>We'd love your help, feedback and support.</p>
-                        <ul class="support_items">
+                        <ul class="support_items" style="list-style: none;">
                             <li>
                                 <a
                                     target="_blank"
