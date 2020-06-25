@@ -6,6 +6,7 @@
 ### How to use:
 * Just clone the repository and keep on your server directory (htdocs)
 * run command $` npm i` to install node
+* run command $` npm run watch` for development server
 * then run project directory like:
 
   in xampp or wampp-  http://localhost/project
