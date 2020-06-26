@@ -12,7 +12,7 @@
                             margin-left: auto;
                             margin-right: auto;
                             width: 30%;"
-                            src="https://vuejs.org/images/logo.png"
+                            src="../../images/logo.png"
                             alt="Vue"
                         />
                         <p style="text-align:center;">We'd love to help you.</p>

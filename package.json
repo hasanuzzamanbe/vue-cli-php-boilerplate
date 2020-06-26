@@ -1,7 +1,7 @@
 {
-  "name": "author-bio-ultimate",
+  "name": "vue-cli-php-boilerplate",
   "version": "1.0.0",
-  "description": "show author bio anywhere on your site",
+  "description": "An example project to use vue-cli with php",
   "main": "index.js",
   "scripts": {
     "dev": "npm run development",
