@@ -10,7 +10,6 @@
 <body>
     <div id="myAdminPanel">
     </div>
- 
 </body>
    <script src="builds/js/boot.js"></script>
     <script src="builds/js/main.js"></script>

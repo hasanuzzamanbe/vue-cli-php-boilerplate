@@ -28,7 +28,7 @@ All done  :)
 
 * vue-router
 
-> working dirrectory
+> working directory
 
 * You can write anywhere as you need
 
