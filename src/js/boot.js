@@ -1,3 +1,3 @@
-import MyProject from './vue-handlers';
+import MyProject from './vue-handlers.js';
 
 window.MyProject = new MyProject();
